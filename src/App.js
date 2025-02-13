@@ -29,7 +29,7 @@ function App() {
   };
 
   const handleClick = () => {
-    if(messageIndex === messages.length - 1) {
+    if(messageIndex === messages.length - 2) {
       window.close();
     }
     // Обновляем индекс, чтобы следующее сообщение показывалось
