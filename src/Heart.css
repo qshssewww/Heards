@@ -1,0 +1,10 @@
+.heart {
+  position: absolute;
+  animation: float 5s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes float {
+  0% { transform: translateY(100vh); }
+  100% { transform: translateY(-50vh); }
+}

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+	width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  position: relative;
+  overflow: hidden;
+}
+
+.message {
+	z-index: 100;
+  font-size: 3vw;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+
+@media (max-width: 768px) {
+  .message {
+    font-size: 6vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .message {
+    font-size: 8vw;
+  }
+}
